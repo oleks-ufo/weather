@@ -1,0 +1,164 @@
+* {
+		box-sizing: border-box;
+		transition: all .1s ease-in;	
+}
+
+body {
+		margin: 0;
+		background: rgb(51, 153, 204);
+		font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+		letter-spacing: 1px;	
+		color: rgb(231, 252, 254);
+		border-right: 20px solid #2982AD;
+		border-left: 20px solid #2982AD;
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: rgb(41, 130, 173);
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
+.container {
+	width: 100%;
+	height: 1000px;
+	padding-top: 40px		
+}
+
+main {
+	width: 1000px;
+	margin: auto;		
+}
+
+ul li {
+	list-style: none;
+	text-align: center;
+}
+
+p {
+	display: inline;
+	color: rgb(187,222,238);
+	margin-bottom: 0;
+
+}
+
+p::after {
+	content: " °C ";
+}
+
+i {
+	color: rgb(207,223 ,223);
+	font-size: 25px;
+}
+
+h2 i {
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+}
+
+ul li i {
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+ul li {
+	height: 130px;
+	border: 3px solid rgb(255, 255, 255);
+	display: inline-block;
+	font-size: 20px;
+	margin-right: -1px;
+}
+
+ul {
+	font-size: 0;
+	padding: 0;
+	border: 3px solid rgb(255, 255, 255);
+}
+
+.sydney {
+	width: 100%;
+}
+
+.lisbon, .sf {
+	width: 50%;
+}
+
+.paris, .belgrade, .moscow, .aviv, .cair, .ny, .dehli, .tokyo {
+	width: 25%;
+}
+
+.paris {
+	background-color: rgb(51,204,204);
+}
+
+.belgrade {
+	background-color: rgb(153,102,153);
+}
+
+.moscow {
+	background-color: rgb(194,71,71);
+}
+
+.aviv {
+	background-color: rgb(226,103,74);
+}
+
+.cair {
+	background-color: rgb(255,204,102);
+}
+
+.ny {
+	background-color: rgb(153,204,153);
+}
+
+.dehli {
+	background-color: rgb(102,153,153);
+}
+
+.sf {
+	background-color: rgb(204,102,153);
+}
+
+.tokyo {
+	background-color: rgb(51,153,102);
+}
+
+.sydney {
+	background-color: rgba(102,102,153,1);
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+h4 {
+	color: rgb(255,251,247);
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+ul:hover li{
+	opacity: 0.5;
+}
+
+ul li:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
